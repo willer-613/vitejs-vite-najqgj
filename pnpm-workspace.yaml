@@ -1,0 +1,9 @@
+packages:
+  # all packages in direct subdirs of remote-ui/
+  - 'remote-ui'
+  # all packages in direct subdirs of vue3-host/
+  - 'vue3-host'
+  # all packages in direct subdirs of vue3-host-dynamic/
+  - 'vue3-host-dynamic'
+  # exclude packages that are inside test directories
+  - '!**/test/**'
